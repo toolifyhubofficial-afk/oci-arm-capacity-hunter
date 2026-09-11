@@ -1,0 +1,9 @@
+*.key
+*.pem
+*.log
+.env
+__pycache__/
+venv/
+.oci/
+
+*.metadata.json
