@@ -35,8 +35,8 @@ def main():
     image_id = os.environ["OCI_IMAGE_ID"]
     ssh_pub_key = os.environ["OCI_SSH_PUBLIC_KEY"]
 
-    target_ocpus = float(os.environ.get("OCI_OCPUS", "2.0"))
-    target_memory = float(os.environ.get("OCI_MEMORY_IN_GBS", "12.0"))
+    target_ocpus = float(os.environ.get("OCI_OCPUS", "1.0"))
+    target_memory = float(os.environ.get("OCI_MEMORY_IN_GBS", "6.0"))
     shape = "VM.Standard.A1.Flex"
 
     log(f"Target Region: {region}")
